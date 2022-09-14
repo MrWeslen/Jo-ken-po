@@ -1,9 +1,12 @@
-var jogadorEscolha = 0;
+var nome = prompt('Digite seu nome jogador:') 
+
+        var jogadorEscolha = 0;
         var jogadorPontuacao = 0;
         var computadorEscolha = 0;
         var computadorPontuacao = 0;
         var ganhador = -1;
 
+        document.getElementById("jogador-nome").innerText = nome
 
         function jogar(escolha) {
             jogadorEscolha = escolha;
