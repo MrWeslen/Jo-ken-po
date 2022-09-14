@@ -4,7 +4,7 @@
 }
 h1{
 text-align: center;
-color: #74b9ff;
+color: #0101DF;
 }
 #placar{
     display: flex;
@@ -16,10 +16,10 @@ color: #74b9ff;
     font-size: 40px;
     width: 70px;
     text-align: center;
-    color: #74b9ff
+    color: #0101DF
 }
 #s, #papel{
-    color: #ff7675;
+    color: #6E6E6E;
 }
 
 #jogador, #computador{
@@ -36,7 +36,7 @@ color: #74b9ff;
     flex-wrap: wrap;
 }
 #jogador{
-    background-color:#ff7675 ;
+    background-color:#BDBDBD ;
 }
 
 #jogador-nome{
@@ -47,7 +47,7 @@ color: #74b9ff;
 }
 
 #computador{
-    background-color: #74b9ff;
+    background-color: #0101DF;
 }
 #computador-pontos, #jogador-pontos{
     position: absolute;
