@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra-papel-tesoura</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div id="principal">
+    <h1>Pedra <span id="papel">papel </span>tesoura</h1>
+        <div id="placar"> 
+            <div id="jogador">
+                <h2 id="jogador-nome">Felipe</h2>
+                <span id="jogador-pontos">0</span>
+                <ul id="jogador-escolha">
+                    <li><a  id="jogador-escolha-1" onclick="jogar(1)"><img src="papel.png"></a></li>
+                    <li><a  id="jogador-escolha-2" onclick="jogar(2)"><img src="pedra.png"></a></li>
+                    <li><a  id="jogador-escolha-3" onclick="jogar(3)"><img src="tesoura.png"></a></li>
+                </ul>
+            </div>
+
+            <div id="versus">v<spam id="s">s</spam></div>
+            <div id="computador">
+                <h2 id="computador-nome">computador</h2>
+                <span id="computador-pontos">0</span>
+                <ul id="computador-escolha">
+                    <li><a  id="computador-escolha-1"><img src="papel.png"></a></li>
+                    <li><a  id="computador-escolha-2"><img src="pedra.png"></a></li>
+                    <li><a  id="computador-escolha-3"><img src="tesoura.png"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="mensagens">&nbsp;</div>
+</div>
+    
+</body>
+</html>
